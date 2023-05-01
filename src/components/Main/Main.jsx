@@ -10,7 +10,11 @@ export default function Main(){
                     <Col>
                     <h1>Gallery</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora recusandae ipsam laborum ea aperiam asperiores dolores accusantium animi placeat, maiores molestias. Praesentium, ad neque. Officiis velit provident illum! Ad, cupiditate.</p>
-                    <HashLink to="/#gallery"><Button>See Gallery</Button></HashLink>
+                    <HashLink to="/#gallery">
+                        <Button  className="bg-secondary">
+                        See Gallery
+                        </Button>
+                    </HashLink>
                     </Col>
                 </Row>
             </Container>

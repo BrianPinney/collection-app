@@ -6,7 +6,7 @@ export default function Panel({ data: { id, episode, content, image } }) {
     <Col key={id} sm={10} md={6} lg={4}>
       <Card className="p-3">
         <figure>
-          <Image src={image} fluid />
+          <Image src={image} fluid/>
         </figure>
         
         <div className="episode">
